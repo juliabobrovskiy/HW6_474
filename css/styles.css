@@ -1,0 +1,41 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #660f58;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+
+svg.tooltip {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(236, 233, 224);
+    border:2px black;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.select {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 590px;
+    width: 80px;
+    height: 30px;
+    padding: 7px;
+    font: 12px sans-serif;
+    background: #dbc0d7;
+}
+
+
