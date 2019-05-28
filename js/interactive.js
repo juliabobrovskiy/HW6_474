@@ -14,7 +14,7 @@
       .attr('height', 600);
 
     // d3.csv is basically fetch but it can be be passed a csv file as a parameter
-    d3.csv("../data/dataEveryYear.csv")
+    d3.csv("/data/dataEveryYear.csv")
       .then((data) => makeInitialGraph(data));
   }
 
